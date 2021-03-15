@@ -66,16 +66,6 @@ h1, h2, h3, h4, h5, h6, p {
     height: 750px;
 }
 
-.bg {
-    background-image: url("bg.png");
-    position: absolute;
-    left: 7px;
-    top: 0px;
-    width: 1600px;
-    height: 159px;
-    z-index: 284;
-}
-
 .section--header {
     background: url("images/header/bg.png");
     background-size: cover;
@@ -96,36 +86,36 @@ h1, h2, h3, h4, h5, h6, p {
 /* Header */
 /* ================================== */
 
-.header{
+.header {
     height: 110px;
     background: linear-gradient(rgba(0,0,0,.6), rgba(255,255,255,0));
 }
 
-.header__inner{
+.header__inner {
     display: flex;
     justify-content: space-between;
 }
 
-.header__logo a{
+.header__logo a {
     text-decoration: none;
     color: white;
 }
 
-.header__logo{
+.header__logo {
     font-size: 36px;
     font-family: 'Yeseva One', cursive;
     margin-top: -7px;
     padding-top: 47px;
 }
 
-.header__nav{
+.header__nav {
     display: flex;
     font-size: 21px;
     font-weight: bold;
     margin-right: 40px;
 }
 
-.header__nav__link{
+.header__nav__link {
     color: white;
     text-decoration: none;
     font-family: "GentiumBookBasic", serif;
@@ -135,16 +125,16 @@ h1, h2, h3, h4, h5, h6, p {
     padding-right: 13px;
 }
 
-.header__nav__link:hover{
+.header__nav__link:hover {
     border-top: 3px solid rgba(255, 255, 255, 0.7);
     padding-top: 49px;
 }
 
-.header__nav__link:first-child{
+.header__nav__link:first-child {
     margin-left: 0;
 }
 
-.header__social{
+.header__social {
     margin-left: 20px;
     padding-top: 53px;
     font-size: 21px;
@@ -156,18 +146,18 @@ h1, h2, h3, h4, h5, h6, p {
     transition: transform .1s linear;
 }
 
-.header__link:first-child{
+.header__link:first-child {
     margin-left: 0;
 }
 
-.header__link:hover{
+.header__link:hover {
     transform: scale(1.2);
 }
 
 /* Promo */
 /* ================================== */
 
-.promo h1{
+.promo h1 {
     width: 1160px;
     padding: 130px 0 30px 100px;
     font-family: 'Yeseva One', cursive;
@@ -178,14 +168,12 @@ h1, h2, h3, h4, h5, h6, p {
     text-shadow: 0 1px 2px rgba(1, 1, 1, 0.64);
 }
 
-.promo__img{
+.promo__img {
     width: 235px;
-    text-align: center;
     margin-left: 510px;
-    margin-right: 510px;
 }
 
-.promo__button{
+.promo__button {
     margin-top: 35px;
     height: 56px;
     width: 230px;
@@ -200,27 +188,27 @@ h1, h2, h3, h4, h5, h6, p {
     transition: background .2s linear;
 }
 
-.promo__button:first-child{
+.promo__button:first-child {
     margin-right: 30px;
 }
 
-.promo__button:hover{
+.promo__button:hover {
     background: rgba(255, 255, 255, 0.4);
     border: white solid 1px;
 }
 
-.buttons{
+.buttons {
     margin-left: 380px;
 }
 
 /* About */
 /* ================================== */
 
-.about{
+.about {
     display: flex;
 }
 
-.about__text{
+.about__text {
     margin-top: 107px;
     margin-left: 120px;
     width: 415px;
@@ -228,7 +216,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-family: "Lato", serif;
     font-size: 16px;
     text-align: center;
-    color: #191919;
+    color: #4c4c4c;
     line-height: 1.5;
 }
 
@@ -245,12 +233,12 @@ h1, h2, h3, h4, h5, h6, p {
     display: block;
 }
 
-.about__img{
+.about__img {
     margin-top: 50px;
     padding-left: 80px;
 }
 
-.about__dish{
+.about__dish {
     margin-top: 40px;
     margin-left: 13px;
 }
@@ -258,14 +246,14 @@ h1, h2, h3, h4, h5, h6, p {
 /* Ingredients */
 /* ================================== */
 
-.ingredients{
+.ingredients {
     display: flex;
 }
 
-.ingredients__text{
+.ingredients__text {
     width: 570px;
+    padding: 83px 81px 0;
     margin-top: 100px;
-    padding-top: 83px;
     margin-left: 640px;
     font-family: "Lato", serif;
     font-size: 16px;
@@ -273,8 +261,6 @@ h1, h2, h3, h4, h5, h6, p {
     color: white;
     line-height: 1.5;
     background: rgba(0, 0, 0, 0.67);
-    padding-left: 81px;
-    padding-right: 81px;
 }
 
 .ingredients__title {
@@ -290,21 +276,20 @@ h1, h2, h3, h4, h5, h6, p {
     display: block;
 }
 
-.ingredients__imgs{
+.ingredients__imgs {
     margin-top: 70px;
     margin-bottom: 79px;
 
 }
 
-.ingredients__imgs img{
+.ingredients__imgs img {
     margin-left: 30px;
-    padding: 0 0 0 0;
+    padding: 0;
 }
 
-.ingredients__imgs img:first-child{
+.ingredients__imgs img:first-child {
     margin-left: 0;
 }
-
 
 /* Menu */
 /* ================================== */
@@ -466,14 +451,13 @@ h1, h2, h3, h4, h5, h6, p {
 
 .reviews__quotes {
     position: absolute;
-    top: 26%;
-    left: 4%;
+    top: 146px;
+    left: 31px;
     z-index: 1;
 
     font-family: 'Georgia', serif;
     font-size: 96px;
     color: #979997;
-
 }
 
 .reviews__text {
@@ -738,11 +722,20 @@ input::-webkit-inner-spin-button {
     margin: 15px 0 15px;
 }
 
+.footer__content {
+    display: flex;
+    flex-direction: column;
+}
+
 .footer__text {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #fff;
+}
+
+.footer__text--bold {
+    font-weight: 700;
 }
 
 .footer__address {
