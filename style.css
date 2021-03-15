@@ -98,6 +98,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .header{
     height: 110px;
+    background: linear-gradient(rgba(0,0,0,.6), rgba(255,255,255,0));
 }
 
 .header__inner{
@@ -160,7 +161,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .header__link:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 /* Promo */
@@ -177,14 +178,14 @@ h1, h2, h3, h4, h5, h6, p {
     text-shadow: 0 1px 2px rgba(1, 1, 1, 0.64);
 }
 
-.promo img{
+.promo__img{
     width: 235px;
     text-align: center;
     margin-left: 510px;
     margin-right: 510px;
 }
 
-.promo button{
+.promo__button{
     margin-top: 35px;
     height: 56px;
     width: 230px;
@@ -195,13 +196,15 @@ h1, h2, h3, h4, h5, h6, p {
     border: #191919 solid 1px ;
     color: white;
     cursor: pointer;
+
+    transition: background .2s linear;
 }
 
-.promo button:first-child{
+.promo__button:first-child{
     margin-right: 30px;
 }
 
-.promo button:hover{
+.promo__button:hover{
     background: rgba(255, 255, 255, 0.4);
     border: white solid 1px;
 }
