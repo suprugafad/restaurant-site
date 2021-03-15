@@ -192,7 +192,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 18px;
     text-transform: uppercase;
     background: rgba(0, 0, 0, 0.4);
-    border: #191919 solid 2px ;
+    border: #191919 solid 1px ;
     color: white;
     cursor: pointer;
 }
