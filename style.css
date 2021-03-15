@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .header__link:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 /* Promo */
@@ -192,8 +192,9 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 18px;
     text-transform: uppercase;
     background: rgba(0, 0, 0, 0.4);
-    border-bottom: #191919 solid 2px ;
+    border: #191919 solid 2px ;
     color: white;
+    cursor: pointer;
 }
 
 .promo button:first-child{
@@ -202,7 +203,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .promo button:hover{
     background: rgba(255, 255, 255, 0.4);
-    border-bottom: white solid 2px;
+    border: white solid 2px;
 }
 
 .buttons{
